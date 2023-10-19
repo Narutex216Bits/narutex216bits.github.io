@@ -1,2 +1,3 @@
-# Music
-A little work on webpage to show my musical tastes
+# OsOtames
+The Otames website repository
+This is our first repository for prototyping The Otames website!

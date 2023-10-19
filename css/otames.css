@@ -51,6 +51,7 @@ li a {
     border-radius: 70%;
 }
 
+
 .fb-page{
     margin: 50px;
 }
@@ -96,6 +97,9 @@ text-align: center;
 font-size: xx-large;
 }
 
+.sobre{
+	width: 70%;
+}
 
 .slider{width: 100%}
 .slider input{display: none;}

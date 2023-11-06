@@ -4,6 +4,7 @@
 
 body {
     background-color: #000 ;
+	font-family: 'Roboto';font-size:22px;
 }
 
 /* Logo configs */
@@ -248,11 +249,21 @@ text-align: center;
     border-radius: 70%;
 }
 
+#remilsondesc {
+	text-align: center;
+	color: #fff;
+}
+
 #narutex{
-    margin: 50px;
+    
+	margin: 50px;
 	height: 300px;
     width: 300px;
     border-radius: 70%;
+}
+#narutexdesc {
+	text-align: center;
+	color: #fff;
 }
 
 #build{
@@ -262,11 +273,21 @@ text-align: center;
     border-radius: 70%;
 }
 
+#builddesc {
+	text-align: center;
+	color: #fff;
+}
+
 #Agentefogueira{
     margin: 50px;
 	height: 300px;
     width: 300px;
     border-radius: 70%;
+}
+
+#fogueiradesc {
+	text-align: center;
+	color: #fff;
 }
 
 .sobre{

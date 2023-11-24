@@ -1,0 +1,744 @@
+/* It's Just CSS magic, no JS bullshit */
+
+
+/* Fonte usada no HTML */
+
+.titulo{
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: "Nothing You Could Do";
+}
+
+
+/* Config do gradient do fundo */
+
+body {
+    background-image: linear-gradient(20deg, black, rgb(0, 0, 27) )
+}
+/* posição do titulo */
+
+.titulo{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: #999;
+}
+
+.titulo :hover{
+	transform: rotate(-5deg);
+}
+
+/* config do container */
+
+.container{
+	position: relative;
+	margin: 0 auto;
+
+}
+/* config da Overlay para click */
+
+
+/* Card Smile.DK */
+
+.smile{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 150px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.smile img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.smile:hover{
+	transform: scale(2) rotate(-5deg);
+	z-index: 1;
+
+}
+
+.smile:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+  
+/* Card Shanadoo */
+
+.shanadoo{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 15px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.shanadoo img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.shanadoo:hover{
+	transform: scale(2) rotate(15deg);
+	z-index: 1;
+}
+
+.shanadoo:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Venice */
+
+.venice{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 50px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.venice img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.venice:hover{
+	transform: scale(2) rotate(15deg);
+	z-index: 1;
+}
+
+.venice:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+
+/* Card BeForU */ 
+
+.be4u{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 250px;
+	rotate: -60deg;
+	transition: transform .35s ease-out;
+}
+
+.be4u img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.be4u:hover{
+	transform: scale(2) rotate(60deg);
+	z-index: 1;
+}
+
+.be4u:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card S3RL */ 
+
+.S3RL{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 250px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.S3RL img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.S3RL:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.S3RL:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Antique */
+
+.Antique{
+	position: absolute;
+	margin-left: 1300px;
+	margin-top: 250px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.Antique img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.Antique:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Antique:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Vandi */
+
+.Vandi{
+	position: absolute;
+	margin-left: 1700px;
+	margin-top: 0px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.Vandi img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.Vandi:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Vandi:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card LasgoEve */
+
+.LasgoEve{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 900px;
+	rotate: 15deg;
+	transition: transform .35s ease-out;
+}
+
+.LasgoEve img{ 
+	height: 90px;
+	border-radius: 15px;
+}
+
+.LasgoEve:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.LasgoEve:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card LasgoJelle */
+
+.LasgoJelle{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 400px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.LasgoJelle img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.LasgoJelle:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.LasgoJelle:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Baracuda */
+
+.Baracuda{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 400px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.Baracuda img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.Baracuda:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Baracuda:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card President */
+
+.President{
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 250px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.President img{ 
+	height: 100px;
+	border-radius: 15px;
+}
+
+.President:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.President:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card AnnLee */
+
+.AnnLee{
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: 600px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.AnnLee img{ 
+	height: 140px;
+	border-radius: 15px;
+}
+
+.AnnLee:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.AnnLee:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card ToyBox */
+
+.ToyBox{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 750px;
+	rotate: 0deg;
+	transition: transform .35s ease-out;
+}
+
+.ToyBox img{ 
+	height: 200px;
+	border-radius: 15px;
+}
+
+.ToyBox:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.ToyBox:active {
+	transform: scale(2) rotate(-15deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Vengaboys */
+
+.Vengaboys{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 150px;
+	rotate: 0deg;
+	transition: transform .35s ease-out;
+}
+
+.Vengaboys img{ 
+	height: 200px;
+	border-radius: 15px;
+}
+
+.Vengaboys:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Vengaboys:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card kassino */
+
+.kassino{
+	position: absolute;
+	margin-left: 1700px;
+	margin-top: 740px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.kassino img{ 
+	height: 200px;
+	border-radius: 15px;
+}
+
+.kassino:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.kassino:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Sash */
+
+.Sash{
+	position: absolute;
+	margin-left: 1500px;
+	margin-top: 330px;
+	rotate: 2deg;
+	transition: transform .35s ease-out;
+}
+
+.Sash img{ 
+	height: 100px;
+	border-radius: 15px;
+}
+
+.Sash:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Sash:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Styles */
+
+.Styles{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 800px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.Styles img{ 
+	height: 200px;
+	border-radius: 15px;
+}
+
+.Styles:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Styles:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card manian */
+
+.manian{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 600px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.manian img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.manian:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.manian:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card sylver */
+
+.sylver{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 575px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.sylver img{ 
+	height: 100px;
+	border-radius: 15px;
+}
+
+.sylver:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.sylver:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card danzel */
+
+.danzel{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 650px;
+	rotate: 10deg;
+	transition: transform .35s ease-out;
+}
+
+.danzel img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.danzel:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.danzel:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Cascada */
+
+.Cascada{
+	position: absolute;
+	margin-left: 1600px;
+	margin-top: 450px;
+	rotate: 0deg;
+	transition: transform .35s ease-out;
+}
+
+.Cascada img{ 
+	height: 50px;
+	border-radius: 15px;
+}
+
+.Cascada:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Cascada:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Groove */
+
+.Groove{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 700px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.Groove img{ 
+	height: 100px;
+	border-radius: 15px;
+}
+
+.Groove:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Groove:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card italobrothers */
+
+.italobrothers{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 20px;
+	rotate: 0deg;
+	transition: transform .35s ease-out;
+}
+
+.italobrothers img{ 
+	height: 100px;
+	border-radius: 15px;
+}
+
+.italobrothers:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.italobrothers:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card utada */
+
+.utada{
+	position: absolute;
+	margin-left: 1380px;
+	margin-top: 20px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.utada img{ 
+	height: 200px;
+	border-radius: 15px;
+}
+
+.utada:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.utada:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Ayu */
+
+.Ayu{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 50px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.Ayu img{ 
+	height: 120px;
+	border-radius: 15px;
+}
+
+.Ayu:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Ayu:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card Aqua */
+
+.Aqua{
+	position: absolute;
+	margin-left: 1800px;
+	margin-top: 550px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.Aqua img{ 
+	height: 180px;
+	border-radius: 15px;
+}
+
+.Aqua:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.Aqua:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+
+/* Card ianvandahl */
+
+.ianvandahl{
+	position: absolute;
+	margin-left: 1350px;
+	margin-top: 600px;
+	rotate: 3deg;
+	transition: transform .35s ease-out;
+}
+
+.ianvandahl img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.ianvandahl:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
+
+.ianvandahl:active {
+	transform: scale(2) rotate(-5deg) translateY(4px);
+	z-index: 1;
+    
+}
+

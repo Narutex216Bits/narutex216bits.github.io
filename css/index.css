@@ -1,0 +1,65 @@
+/* It's Just CSS magic, no JS bullshit */
+
+
+/* Fonte usada no HTML */
+
+.titulo{
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: "Nothing You Could Do";
+}
+
+
+/* Config do gradient do fundo */
+
+body {
+    background-image: linear-gradient(20deg, black, rgb(0, 0, 27) )
+}
+/* posição do titulo */
+
+.titulo{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: #999;
+}
+
+.titulo :hover{
+	transform: rotate(-5deg);
+}
+
+/* config do container */
+
+.container{
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+/* Card Otames */
+
+.otames{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 220px;
+}
+
+.otames img{ 
+	height: 266;
+    width: 1028;
+}
+
+
+/* Card Seriela */
+
+.seriela{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 150px;
+}
+
+.seriela img{ 
+	height: 572;
+    width: 455;
+}

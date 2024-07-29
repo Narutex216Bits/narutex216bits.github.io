@@ -1,0 +1,57 @@
+/* It's Just CSS magic, no JS bullshit */
+
+/* utilizar uma imagem e repeti-la para fazer o fundo da página */
+
+/* family font */
+
+@font-face {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+/* Background Config */
+
+body {
+    background-image: url("/seriela/img/background.PNG");
+    background-repeat: repeat;
+  }
+
+  /* Seriela and Milith Image configs */
+
+.serielamilithenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+/* Config da Navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3333333e;
+}
+
+li {
+  float: left;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(132, 102, 28);
+}
+
+.active {
+  background-color: rgba(255, 224, 144, 0.984);
+}
+
